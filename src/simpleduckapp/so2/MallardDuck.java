@@ -1,11 +1,24 @@
 package simpleduckapp.so2;
 
-public class MallardDuck extends Duck{
+public class MallardDuck extends Duck implements Quackable, Flyable{
 
     @Override
     public void display() {
         // TODO Auto-generated method stub
-        System.out.println("I;m a real Mallard duck");
+        System.out.println("Im a real Mallard duck");
+        
+    }
+
+    @Override
+    public void fly() {
+        // TODO Auto-generated method stub
+        System.out.println("Fly..");
+        
+    }
+
+    @Override
+    public void quack() {
+        // TODO Auto-generated method stub
         
     }
     
